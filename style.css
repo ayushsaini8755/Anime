@@ -41,9 +41,9 @@ body {
     color: #f8fafc;
     margin-left: 20px;
 }
-@media (min-width:360px){
+@media (max-width:400px){
     .head{
-        font-size:1.6rem;
+        font-size: 24px;
     }
 
     .btn{
@@ -61,7 +61,8 @@ body {
         font-size:1.5rem;
     }
     .box{
-        margin-left: 20px;
+        margin-left: 0px;
+        height: 400px;
         
     }
 }
