@@ -115,7 +115,7 @@ body {
 
     .photo {
         width: 100%; /* Spans across nicely */
-        max-width: 280px; /* Keeps Yamato from getting too massive */
+        max-width: 150px; /* Keeps Yamato from getting too massive */
         height: auto;
         display: block;
         margin: 0 auto;
