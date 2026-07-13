@@ -1,24 +1,3 @@
-/*
-let btn = document.querySelector(".bin");
-let image = document.querySelector(".photo");
-//let url = "https://dog.ceo/api/breeds/image/random";
-let url = "https://dattebayo-api.onrender.com/clans";
-async function getImage() {
-    let promise = await fetch(url);
-    let data = await promise.json();
-    image.src = data.clans[0].name;
-    console.log(data);
-}
-
-btn.addEventListener("click", getImage);
-btn.onclick = () => {
-    image.style.border = "2px solid aqua";
-    image.style.height = "300px";
-    image.style.height = "500px";
-    image.style.marginLeft = "350px";
-
-}
-    */
 let btn = document.querySelector(".btn");
 let image = document.querySelector(".photo");
 let name = document.querySelector(".name");
