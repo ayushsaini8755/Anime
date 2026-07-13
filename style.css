@@ -41,26 +41,27 @@ body {
     color: #f8fafc;
     margin-left: 20px;
 }
-@media (max-width:480px){
+@media (max-width:360px){
     .head{
-        font-size:1.5rem;
-        align-self: center;
+        font-size:1.6rem;
     }
 
     .btn{
-        
+        padding:10px;
         font-size:15px;
-        width: 100px;
+        width: 250px;
+        margin-left: 35px;
     }
 
     .photo{
-        max-width: 270px;
+        max-width:200px;
     }
 
     .name{
-        font-size: 1.5rem;
+        font-size:1.5rem;
     }
     .box{
-        margin-left: 40px;
+        margin-left: 20px;
+        
     }
 }
