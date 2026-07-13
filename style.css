@@ -50,18 +50,18 @@ body {
     .btn{
         padding:10px;
         font-size:15px;
-        margin-left: 25px;
-        width: 200px
+        margin-left: 10px;
+        width: 180px
     }
 
     .photo{
-        max-width: 270px;
+        max-width: 300px;
     }
 
     .name{
         font-size: 2rem;
     }
     .box{
-        margin-left: 45px;
+        margin-left: 55px;
     }
 }
