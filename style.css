@@ -50,8 +50,8 @@ body {
     .btn{
         padding:10px;
         font-size:15px;
-        margin-left: 10px;
-        width: 180px
+        margin-left: 30px;
+        width: 200px
     }
 
     .photo{
@@ -62,6 +62,6 @@ body {
         font-size: 2rem;
     }
     .box{
-        margin-left: 55px;
+        margin-left: 45px;
     }
 }
