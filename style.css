@@ -28,12 +28,11 @@ body {
     color: #f97316;
     justify-self: center;
 }
-.box {
-    margin-left: 70vmin;
-    background-color: #1e293b;
-    height: 80vmin;
+.box{
     width: 80vmin;
-    margin-top: 5vmin;
+    height: 80vmin;
+    margin: 5vmin auto;
+    background-color: #1e293b;
     border-radius: 5%;
 }
 .head {
@@ -41,28 +40,38 @@ body {
     color: #f8fafc;
     margin-left: 20px;
 }
-@media (max-width:400px){
-    .head{
-        font-size: 24px;
+
+@media screen and (max-width: 400px) {
+    .box{
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px 10px;
     }
 
-    .btn{
-        padding:10px;
-        font-size:15px;
-        width: 250px;
-        margin-left: 35px;
+    .head{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0;
     }
 
     .photo{
-        max-width:200px;
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 
     .name{
-        font-size:1.5rem;
+        font-size: 1.4rem;
+        text-align: center;
     }
-    .box{
-        margin-left: 0px;
-        height: 400px;
-        
+
+    .btn{
+        display: block;
+        width: 90%;
+        height: 50px;
+        margin: 20px auto 0;
+        font-size: 16px;
     }
 }
